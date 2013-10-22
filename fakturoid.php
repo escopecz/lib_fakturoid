@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * @package          Fakturoid
+ * @copyright        Copyright © Fakturoid.cz - All rights reserved.
+ * @license          MIT
+ */
+
+// no direct access
+defined('_JEXEC') or die('Restricted access');
+
 /* Safety */
 
 if (!function_exists('curl_init')) {
@@ -226,4 +235,4 @@ class Fakturoid {
   }
 
 }
-?>
+// no PHP closing tag

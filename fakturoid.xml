@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="library" version="2.5" method="upgrade">
+  	<name>Fakturoid Library</name>
+  	<libraryname>fakturoid</libraryname>
+  	<version>1.0.0</version>
+  	<license>MIT</license>
+  	<author>Jan Linhart</author>
+  	<authorEmail>admin@escope.cz</authorEmail>
+  	<authorUrl>http://www.escope.cz</authorUrl>
+  	<copyright>Copyright 2013 Fakturoid.cz - All rights reserved.</copyright>
+  	<creationDate>2013-10-22</creationDate>
+  	<description>
+        <![CDATA[
+            <div class="alert alert-info">
+            <p>Library for <a href="http://www.fakturoid.cz" target="_blank" >Fakturoid.cz</a> API</p>
+            <p><a href="https://github.com/escopecz/lib_fakturoid" target="_blank" >Library documentation</a>.</p>
+            </div>
+        ]]>
+  	</description>
+  	<files>
+  		  <file>fakturoid.php</file>
+  	</files>
+</extension>

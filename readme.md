@@ -1,11 +1,16 @@
-# Fakturoid PHP lib
+Fakturoid Joomla Library
+========================
 
-PHP library for [Fakturoid.cz](https://www.fakturoid.cz/). Please see [API](http://docs.fakturoid.apiary.io/).
+Installable library package for [Fakturoid.cz](https://www.fakturoid.cz/). 
+
+[API documentation](http://docs.fakturoid.apiary.io/).
+[Forked from Fakturoid's Github](https://github.com/fakturoid/php).
 
 ## Usage
 
 ```php
-require_once 'fakturoid.php';
+jimport('fakturoid.fakturoid');
+
 $f = new Fakturoid('..subdomain..', '..user@email.cz..', '..api_key..', 'PHPlib <your@email.cz>');
 $subject = $f->create_subject(array('name' => 'Firma s.r.o.', 'email' => 'aloha@pokus.cz'));
 $lines   = array(array('name' => 'Big sale', 'quantity' => 1, 'unit_price' => 1000));
